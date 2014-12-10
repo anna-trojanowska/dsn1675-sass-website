@@ -51,7 +51,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-top:25rem;
+    padding-top:5rem;
 }
 
 .button {
@@ -86,6 +86,10 @@ body {
     color: white;
     text-shadow: 1px 1px 4px rgba(0,0,0, .5);
 }
+
+.actiontext {
+    line-height: 1.5;
+}
         
 img {
   display: block;
@@ -104,15 +108,19 @@ img {
 }
 
 .logo {
-    width:200px;
+    width:220px;
     padding-left:1rem;
     padding-top:1rem;
-    padding-bottom:1rem;
     display:block;
+    margin: 0 auto;
 }
 
 a:focus {
     outline: 3px solid #000;
+}
+
+.topsellers {
+    background-color: rgba(178, 208, 110, 0.5);
 }
 
 .skip-links {
@@ -137,9 +145,9 @@ a:focus {
 .masthead {
     background-color: #423F4A;
     overflow: hidden;
-}
-
-}
+    margin: 0;
+    padding: 0;
+} 
 
 .legal {
     color: #fff;
@@ -148,11 +156,14 @@ a:focus {
 .nav {
     list-style: none;
     text-transform: uppercase;
+    text-align: center;
     font-family: "PT Sans", sans-serif;
+    padding-left: 0;
 }
 
 .nav li {
     margin: 0;
+    display: inline-block;
 }
 
 .nav a,
@@ -171,6 +182,11 @@ a:focus {
 .nav .nav-current:visited {
     background-color: #B3D06E;
     color: #fff;
+}
+
+.getstarted {
+    color: #423F4A;
+    text-decoration: none;
 }
 
 .radio {
@@ -236,8 +252,33 @@ hr {
     float: right;
 }
     
+.feature {
+    overflow: hidden;
+} 
+
 .symbols {
     display:inline-block; 
+}
+
+.symbol {
+    float: left;
+    width: 30%;
+}
+
+.caption {
+    float: right;
+    text-align: left;
+    width: 70%;
+}
+
+.thankyoufooter {
+    background-color: #423F4A;
+}
+
+.thankyou {
+    background-color: #B3D06E;
+    padding: 8em 0;
+    text-align: center;
 }
 
 footer {
@@ -249,15 +290,8 @@ footer a {
 }
     
 @media only screen and (min-width: 25em) {
-    
-    .nav li {
-        display: inline-block;
-    }
-    
-    .nav {
-        text-align: center;
-    }
-    
+        
+   
 }
     
 @media only screen and (min-width: 38em) { 
@@ -273,6 +307,21 @@ footer a {
      .footer {
         float: right;
     }
+    
+    .symbol {
+    float: none;
+    width: auto;
+    }
+
+    .caption {
+        float: none;
+        text-align: center;
+        width: auto;
+    }
+     .logo {
+         margin: 0;
+     }
+        
     
 }
 

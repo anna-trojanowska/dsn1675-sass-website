@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <title>AudioWorm</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700|Open+Sans:400,700" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Arvo:400,700|PT+Sans:400,700,400italic" rel="stylesheet">
+    
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     
@@ -16,26 +17,53 @@
     <li><a href="#main">Jump to main content</a></li>
 </ul>         
     
-   <header role="banner" id="top" class="masthead">
-            <nav role="navigation" class="island">
-                <ul class="nav brand-family mega">
-                   <li><a class="island-half nav-current" href="signup.html">Sign Up</a></li>
-                    <li><a class="island-half" href="pricing.html">Pricing</a></li>    
-                    <li><a class="island-half" href="#">Login</a></li>  
+   <header role="banner" id="top" class="grid masthead push-0">
+        <div class="unit unit-xs-1 unit-s-1-1 unit-m-1-2 unit-l-1-3">
+            <a href="index.html">
+                <img src="assets/logo.svg" alt="Company Name" class="logo">
+            </a>
+        </div>
+        <div class="search pad-top gutter unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
+            <form id="tfnewsearch" method="get" action="http://www.google.com">
+                <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
+            </form>
+            <nav role="navigation" class="">
+                <ul class="nav pad-top milli">
+                     <li><a class="island-half" href="pricing.html">Pricing</a></li>   
+                    <li><a class="island-half nav-current" href="signup.html">Sign Up</a></li> 
+                    <li><a class="island-half" href="#">Login</a></li>
                 </ul>
             </nav>
+        </div>
     </header>
     
-   <footer>    
+    <main>
+         <div class="grid pricing">
+            <div class="feature unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 island">
+                <img src="assets/free.svg" class="price" alt="Free">
+                <h1 class="caption island-half">Free</p>
+            </div>
+            <div class="feature unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 island">
+                <img src=" " class="price" alt="Silver">
+                <h1 class="caption island-half">Silver</p>
+            </div>
+            <div class="feature unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 island">
+                <img src=" " class="price" alt="Gold">
+                <h1 class="caption island-half">Gold</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>    
         <div class="grid masthead">
             <div rold="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island-half">
                 <p class="legal push-none micro">©2014 AudioWorm<a href="#top">Top</a></p>
             </div>
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 island-half">
                 <nav>
-                    <ul class="nav footer brand-family mega">
-                        <li><a class="island-half" href="signup.html">Sign Up</a></li>
-                        <li><a class="island-half" href="pricing.html">Pricing</a></li>                         
+                    <ul class="nav milli">
+                        <li><a class="island-half" href="pricing.html">Pricing</a></li>
+                        <li><a class="island-half" href="signup.html">Sign Up</a></li>                         
                         <li><a class="island-half" href="#">Login</a></li>
                     </ul>
                 </nav>
@@ -45,3 +73,4 @@
     
 </body>
 </html>
+
