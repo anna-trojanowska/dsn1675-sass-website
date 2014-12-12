@@ -251,25 +251,38 @@ hr {
 .books img + img {
     float: right;
 }
-    
-.feature {
-    overflow: hidden;
-} 
 
 .symbols {
     display:inline-block; 
 }
 
 .symbol {
-    float: left;
-    width: 30%;
+    float: center;
+}
+
+.price {
+    float: center;
 }
 
 .caption {
-    float: right;
-    text-align: left;
-    width: 70%;
+    text-align: center;
+    width: 100%;
 }
+
+.description {
+    display: inline-block;
+    text-align: center;
+}
+
+.pricing {
+    display: inline-block;
+}
+
+.feature {
+    overflow: hidden;
+    float: left;
+    text-align: center;
+} 
 
 .thankyoufooter {
     background-color: #423F4A;
@@ -318,6 +331,7 @@ footer a {
         text-align: center;
         width: auto;
     }
+        
      .logo {
          margin: 0;
      }
