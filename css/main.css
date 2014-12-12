@@ -189,6 +189,11 @@ a:focus {
     text-decoration: none;
 }
 
+.submit {
+    color: #423F4A;
+    text-decoration: none;
+}
+
 .radio {
     white-space: nowrap;
 }
@@ -289,7 +294,7 @@ hr {
 }
 
 .thankyou {
-    background-color: #B3D06E;
+    background-color: rgba(178, 208, 110, 0.5);
     padding: 8em 0;
     text-align: center;
 }
