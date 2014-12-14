@@ -294,9 +294,10 @@ hr {
 }
 
 .thankyou {
-    background-color: rgba(178, 208, 110, 0.5);
+    background-color: #B3D06E;
     padding: 8em 0;
     text-align: center;
+    color: white;
 }
 
 footer {
